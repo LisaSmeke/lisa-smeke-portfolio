@@ -1,5 +1,5 @@
 :root {
-  --dark: #242526;
+  --dark: #231f20;
   --main: #e63b7a;
   --light: #fdf2f7;
   --highlight: #c59655;
@@ -19,7 +19,7 @@
 body {
   background-color: var(--main);
   color: var(--dark);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .profile {
   width: 40%;
