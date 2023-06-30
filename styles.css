@@ -1,0 +1,26 @@
+:root {
+  --dark: #242526;
+  --main: #e63b7a;
+  --light: #fdf2f7;
+  --highlight: #c59655;
+  --cerise_red50: #fdf2f7;
+  --cerise_red100: #fce7f0;
+  --cerise_red200: #fad0e3;
+  --cerise_red300: #f7aaca;
+  --cerise_red400: #f175a6;
+  --cerise_red500: #e63b7a;
+  --cerise_red600: #d72b61;
+  --cerise_red700: #ba1c4a;
+  --cerise_red800: #9a1a3e;
+  --cerise_red900: #801b36;
+  --cerise_red950: #4e091b;
+}
+
+body {
+  background-color: var(--main);
+  color: car(--dark);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.profile {
+  width: 40%;
+}
