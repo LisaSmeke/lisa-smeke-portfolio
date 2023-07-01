@@ -27,6 +27,7 @@ header {
   border: 1px solid green;
 }
 
+/*Navbar with logo*/
 .navbar {
   width: 90%;
   margin: 0 auto;
@@ -35,12 +36,10 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 .logo {
   width: 70px;
   padding: 10px 0;
 }
-
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -50,18 +49,52 @@ header {
   justify-content: space-around;
   gap: 1rem;
 }
-
 .navbar li {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 500;
 }
-
 .navbar a {
   text-decoration: none;
   color: var(--dark);
 }
-
 .navbar a:hover {
   color: var(--light);
+}
+
+/*Responsive menu icon*/
+.menu {
+  display: none;
+}
+.menu-line {
+  width: 28px;
+  height: 3px;
+  background-color: var(--dark);
+  margin-bottom: 6px;
+}
+
+@media all and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    position: relative;
+  }
+  .menu {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+  .navbar ul {
+    padding: 10px 0;
+    display: none;
+  }
+  .navbar li {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid var(--dark);
+    padding-top: 10px;
+  }
+  .logo-container {
+    width: 100%;
+  }
 }
