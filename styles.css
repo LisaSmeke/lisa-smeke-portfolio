@@ -40,7 +40,7 @@ header {
   width: 70px;
   padding: 10px 0;
 }
-.navbar ul {
+.nav-list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -49,21 +49,21 @@ header {
   justify-content: space-around;
   gap: 1rem;
 }
-.navbar li {
+.nav-list li {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 500;
 }
-.navbar a {
+.nav-list a {
   text-decoration: none;
   color: var(--dark);
 }
-.navbar a:hover {
+.nav-list a:hover {
   color: var(--light);
 }
 
 /*Responsive menu icon*/
-.menu {
+.menu-btn {
   display: none;
 }
 .menu-line {
@@ -72,27 +72,30 @@ header {
   background-color: var(--dark);
   margin-bottom: 6px;
 }
-
+/*Show hamburger menu when width is 768px or less*/
 @media all and (max-width: 768px) {
   .navbar {
     flex-direction: column;
     position: relative;
   }
-  .menu {
+  .menu-btn {
     display: block;
     position: absolute;
     right: 15px;
     top: 15px;
+    cursor: pointer;
   }
-  .navbar ul {
-    padding: 10px 0;
+  .nav-list {
+    padding: 0;
+    width: 100%;
     display: none;
   }
-  .navbar li {
+  .nav-list li {
     width: 100%;
     text-align: center;
+    display: block;
     border-top: 1px solid var(--dark);
-    padding-top: 10px;
+    padding: 10px 0;
   }
   .logo-container {
     width: 100%;
