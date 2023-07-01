@@ -97,4 +97,7 @@ header {
   .logo-container {
     width: 100%;
   }
+  .active {
+    display: block;
+  }
 }
