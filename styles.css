@@ -17,10 +17,51 @@
 }
 
 body {
+  margin: 0;
   background-color: var(--main);
   color: var(--dark);
   font-family: 'Montserrat', sans-serif;
 }
-.profile {
-  width: 40%;
+
+header {
+  border: 1px solid green;
+}
+
+.navbar {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 70px;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.navbar li {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: var(--dark);
+}
+
+.navbar a:hover {
+  color: var(--light);
 }
