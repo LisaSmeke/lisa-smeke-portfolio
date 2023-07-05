@@ -167,3 +167,18 @@ header.scrolled {
     width: 90%;
   }
 }
+
+/*About section*/
+.about-section {
+  width: 100%;
+  background-color: var(--light);
+  border: 1px solid var(--light);
+}
+.about-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.section-title {
+  width: 90%;
+  margin: 0 auto;
+}
