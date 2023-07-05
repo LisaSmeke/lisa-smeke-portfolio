@@ -16,6 +16,10 @@
   --cerise_red950: #4e091b;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   background-color: var(--main);
@@ -172,13 +176,17 @@ header.scrolled {
 .about-section {
   width: 100%;
   background-color: var(--light);
-  border: 1px solid var(--light);
+  border: 1px solid blue;
 }
 .about-container {
   width: 90%;
   margin: 0 auto;
+  border: 1px solid green;
 }
 .section-title {
-  width: 90%;
-  margin: 0 auto;
+  border: 1px solid yellow;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--main);
 }
