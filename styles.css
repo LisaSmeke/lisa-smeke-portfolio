@@ -47,6 +47,7 @@ header.scrolled {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
 .logo {
   width: 70px;
   padding: 10px 0;
@@ -119,16 +120,14 @@ header.scrolled {
 
 /*Hero section*/
 .hero-section {
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
-  margin-top: 70px;
+  margin-top: 50px;
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
 }
 .hero-text {
-  width: 45%;
-  margin-left: 5%;
+  width: 40%;
 }
 .hero-text h1 {
   text-transform: uppercase;
@@ -154,12 +153,12 @@ header.scrolled {
 }
 .hero-img {
   width: 100%;
-  max-width: 600px;
+  max-width: 580px;
   display: block;
 }
 
-/*Responsive hero section when width is 970px or less*/
-@media all and (max-width: 970px) {
+/*Responsive hero section when width is 994px or less*/
+@media all and (max-width: 994px) {
   .hero-section {
     display: flex;
     flex-direction: column;
@@ -189,4 +188,12 @@ header.scrolled {
   font-weight: 600;
   text-transform: uppercase;
   color: var(--main);
+}
+/*Center content when screen is 1200px or larger*/
+@media all and (min-width: 1200px) {
+  .navbar,
+  .hero-section,
+  .about-container {
+    width: 75%;
+  }
 }
