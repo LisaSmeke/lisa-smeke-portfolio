@@ -173,12 +173,13 @@ header.scrolled {
 
 /*About section*/
 .about-section {
-  width: 100%;
+  /* width: 100%; */
   background-color: var(--light);
-  border: 1px solid blue;
 }
-.about-container {
+.section-container {
   width: 90%;
+  padding-top: 3%;
+  padding-left: 20%;
   margin: 0 auto;
   border: 1px solid green;
 }
@@ -189,11 +190,16 @@ header.scrolled {
   text-transform: uppercase;
   color: var(--main);
 }
+.about-text {
+  width: 70%;
+  line-height: 1.8;
+  text-align: justify;
+}
 /*Center content when screen is 1200px or larger*/
 @media all and (min-width: 1200px) {
   .navbar,
   .hero-section,
-  .about-container {
+  .section-container {
     width: 75%;
   }
 }
