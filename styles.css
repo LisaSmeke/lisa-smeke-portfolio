@@ -178,9 +178,9 @@ header.scrolled {
   width: 70%;
   margin: 0 auto;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 .section-title {
-  width: 70%;
   font-size: 32px;
   font-weight: 600;
   text-transform: uppercase;
@@ -188,7 +188,7 @@ header.scrolled {
 }
 .about-text {
   line-height: 1.8;
-  text-align: justify;
+  text-align: left;
 }
 /*Center content when screen is 1200px or larger*/
 /* @media all and (min-width: 1200px) {
