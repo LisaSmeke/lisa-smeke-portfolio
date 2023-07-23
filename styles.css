@@ -193,9 +193,21 @@ header.scrolled {
   text-transform: uppercase;
   color: var(--main);
 }
-.about-text {
+.section-text {
   line-height: 1.8;
   text-align: left;
+}
+
+/*Experience section*/
+.experience-section {
+  background-color: var(--dark);
+  color: var(--light);
+}
+.experience-list {
+  line-height: 1.8;
+}
+.experience-list li::marker {
+  color: var(--cerise_red400);
 }
 /*Center content when screen is 1200px or larger*/
 /* @media all and (min-width: 1200px) {
