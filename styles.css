@@ -144,6 +144,12 @@ header.scrolled {
 .hero-text p {
   margin: 2px 0;
 }
+.hero-img {
+  width: 60%;
+  max-width: 580px;
+  display: block;
+}
+/*Hero button*/
 .hero-btn {
   margin-top: 10px;
   padding: 20px;
@@ -155,12 +161,8 @@ header.scrolled {
   cursor: pointer;
 }
 .hero-btn:hover {
-  opacity: 0.7;
-}
-.hero-img {
-  width: 60%;
-  max-width: 580px;
-  display: block;
+  color: var(--cerise_red300);
+  border: 1px solid var(--cerise_red300);
 }
 
 /*Responsive hero section when width is 900px or less*/
