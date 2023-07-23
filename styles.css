@@ -215,10 +215,6 @@ header.scrolled {
 /*Work section*/
 .work-section {
   background-color: var(--light);
-  border: 3px solid green;
-}
-.work-container {
-  border: 1px solid blue;
 }
 .project-title {
   font-size: 28px;
