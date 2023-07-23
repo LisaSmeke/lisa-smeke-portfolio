@@ -27,13 +27,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-a {
-  color: var(--main);
-}
-a:hover {
-  color: var(--cerise_red400);
-}
-
 header {
   position: sticky;
   top: 0;
@@ -198,6 +191,12 @@ header.scrolled {
 .section-text {
   line-height: 1.8;
   text-align: left;
+}
+.about-link {
+  color: var(--main);
+}
+.about-link:hover {
+  color: var(--cerise_red400);
 }
 
 /*Experience section*/
