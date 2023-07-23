@@ -211,6 +211,25 @@ header.scrolled {
 .experience-list li::marker {
   color: var(--cerise_red400);
 }
+
+/*Work section*/
+.work-section {
+  background-color: var(--light);
+  border: 3px solid green;
+}
+.work-container {
+  border: 1px solid blue;
+}
+.project-title {
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--dark);
+}
+.project {
+  background-color: var(--cerise_red300);
+}
+
 /*Center content when screen is 1200px or larger*/
 /* @media all and (min-width: 1200px) {
   .navbar,
