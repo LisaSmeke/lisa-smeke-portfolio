@@ -27,6 +27,13 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+a {
+  color: var(--main);
+}
+a:hover {
+  color: var(--cerise_red400);
+}
+
 header {
   position: sticky;
   top: 0;
