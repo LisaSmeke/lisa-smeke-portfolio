@@ -226,6 +226,11 @@ header.scrolled {
   background-color: var(--cerise_red300);
 }
 
+/*Contact section*/
+.contact-title {
+  color: var(--dark);
+}
+
 /*Center content when screen is 1200px or larger*/
 /* @media all and (min-width: 1200px) {
   .navbar,
