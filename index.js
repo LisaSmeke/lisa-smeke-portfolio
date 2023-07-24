@@ -8,12 +8,21 @@ menuBtn.addEventListener('click', () => {
   navList.classList.toggle('active');
 });
 
-/*Change header color when scrolling*/
+/*Change top navbar color when scrolling*/
 document.addEventListener('scroll', () => {
-  const header = document.querySelector('header');
+  const topNavbar = document.getElementById('top-navbar');
   if (window.scrollY > 0) {
-    header.classList.add('scrolled');
+    topNavbar.classList.add('scrolled');
   } else {
-    header.classList.remove('scrolled');
+    topNavbar.classList.remove('scrolled');
   }
 });
+
+// function myClickFunction() {
+//   var elementName = document.getElementById('click-demo');
+//   if (elementName.style.fontStyle != 'italic') {
+//     elementName.style.fontStyle = 'italic';
+//   } else {
+//     elementName.style.fontStyle = 'normal';
+//   }
+// }
