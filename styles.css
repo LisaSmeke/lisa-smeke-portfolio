@@ -248,6 +248,9 @@ header.scrolled {
   list-style-type: '+';
   padding-left: 5px;
 }
+.project ul li::marker {
+  font-weight: 600;
+}
 .project-btn {
   margin-top: 10px;
   padding: 7%;
