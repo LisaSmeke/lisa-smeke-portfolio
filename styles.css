@@ -276,6 +276,21 @@ header.scrolled {
   margin: 0 auto;
 }
 
+/*Responsive project boxes when width is 900px or less*/
+@media all and (max-width: 900px) {
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+  }
+  .project-description,
+  .project-btn,
+  .project-img-container {
+    width: 100%;
+  }
+}
+
 /*Contact section*/
 .contact-title {
   color: var(--dark);
