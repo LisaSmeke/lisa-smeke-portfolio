@@ -215,14 +215,62 @@ header.scrolled {
 .work-section {
   background-color: var(--light);
 }
+.project {
+  background-color: var(--cerise_red300);
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 2%;
+  margin-bottom: 30px;
+}
 .project-title {
   font-size: 28px;
   font-weight: 600;
   text-transform: uppercase;
   color: var(--dark);
+  margin: 0;
 }
-.project {
-  background-color: var(--cerise_red300);
+.project-description {
+  width: 40%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+.project h4 {
+  margin: 0;
+}
+.project ul {
+  padding-left: 15px;
+  margin-top: 5px;
+}
+.project ul li {
+  list-style-type: '+';
+  padding-left: 5px;
+}
+.project-btn {
+  margin-top: 10px;
+  padding: 7%;
+  width: 90%;
+  text-transform: uppercase;
+  border: 1px solid var(--dark);
+  font-weight: 200;
+  background-color: transparent;
+  cursor: pointer;
+}
+.project-btn:hover {
+  color: var(--light);
+  border: 1px solid var(--light);
+}
+.project-img-container {
+  display: flex;
+  width: 60%;
+  align-items: center;
+}
+.project-img {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
 }
 
 /*Contact section*/
