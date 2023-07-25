@@ -258,14 +258,55 @@
           Let's build something.
         </h2>
         <div class="contact-form-container">
-          <form action="https://formsubmit.co/lisasmeke@gmail.com" method="POST">
-            <input type="text" id="fname" name="firstname" placeholder="FIRST NAME *" required />
-            <input type="text" id="lname" name="lastname" placeholder="LAST NAME *" required />
-            <input type="email" id="email" name="email" placeholder="EMAIL *" required />
-            <input type="tel" id="phone" name="phone" placeholder="PHONE" />
-            <input type="text" id="subject" name="subject" placeholder="SUBJECT *" required />
-            <input type="text" id="msg" name="msg" placeholder="MESSAGE *" required />
-            <button type="submit">Send</button>
+          <form
+            class="contact-form"
+            id="contact-form"
+            action="https://formsubmit.co/lisasmeke@gmail.com"
+            method="POST"
+          >
+            <input
+              class="input-box first-name"
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="First name *"
+              required
+            />
+            <input
+              class="input-box last-name"
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Last name *"
+              required
+            />
+            <input
+              class="input-box email"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email *"
+              required
+            />
+            <input class="input-box phone" type="tel" id="phone" name="phone" placeholder="Phone" />
+            <input
+              class="input-box subject"
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Subject *"
+              required
+            />
+            <textarea
+              class="input-box msg"
+              form="contact-form"
+              id="msg"
+              name="msg"
+              placeholder="Message *"
+              required
+            >
+            </textarea>
+            <button class="contact-btn" type="submit">Send</button>
           </form>
         </div>
       </div>
