@@ -292,8 +292,11 @@ header.scrolled {
 }
 
 /*Contact section*/
-.contact-title {
-  color: var(--dark);
+.contact-section {
+  background-color: var(--light);
+}
+.contact-section-container {
+  border-top: 3px solid var(--main);
 }
 .contact-form {
   display: flex;
