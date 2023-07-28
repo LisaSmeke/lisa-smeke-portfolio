@@ -154,8 +154,7 @@ header.scrolled {
   cursor: pointer;
 }
 .hero-btn:hover {
-  color: var(--cerise_red300);
-  border: 1px solid var(--cerise_red300);
+  background-color: var(--cerise_red300);
 }
 
 /*Responsive hero section when width is 900px or less*/
@@ -262,8 +261,7 @@ header.scrolled {
   cursor: pointer;
 }
 .project-btn:hover {
-  color: var(--light);
-  border: 1px solid var(--light);
+  background-color: var(--light);
 }
 .project-img-container {
   display: flex;
@@ -335,19 +333,18 @@ textarea::placeholder {
 .msg {
   flex: 1 1 100%;
 }
+/*Contact form button*/
 .contact-btn {
-  padding: 2%;
-  border: 1px solid var(--dark);
+  padding: 20px;
+  width: 250px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  border: 1px solid var(--dark);
+  font-weight: 200;
   background-color: transparent;
   cursor: pointer;
-  width: 40%;
 }
 .contact-btn:hover {
-  color: var(--cerise_red300);
-  border: 1px solid var(--cerise_red300);
+  background-color: var(--cerise_red300);
 }
 
 /*SoMe*/
