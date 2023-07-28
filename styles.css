@@ -346,3 +346,13 @@ textarea::placeholder {
   color: var(--cerise_red300);
   border: 1px solid var(--cerise_red300);
 }
+
+/*Footer*/
+footer {
+  background-color: var(--dark);
+  color: var(--light);
+}
+footer a {
+  color: var(--light);
+  text-decoration: none;
+}
