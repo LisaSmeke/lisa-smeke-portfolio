@@ -370,6 +370,10 @@ textarea::placeholder {
 }
 .so-me-list a {
   text-decoration: none;
+  color: var(--light);
+}
+.so-me-list a:hover {
+  font-weight: 600;
 }
 
 /*Footer*/
@@ -386,4 +390,7 @@ footer p {
 footer a {
   color: var(--light);
   text-decoration: none;
+}
+footer a:hover {
+  font-weight: 600;
 }
