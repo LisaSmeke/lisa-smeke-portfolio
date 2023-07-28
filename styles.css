@@ -322,9 +322,6 @@ textarea {
 textarea::placeholder {
   color: var(--dark);
 }
-.input-box:focus {
-  background-color: var(--light);
-}
 .first-name,
 .last-name,
 .email,
