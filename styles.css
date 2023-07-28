@@ -295,15 +295,11 @@ header.scrolled {
 .contact-title {
   color: var(--dark);
 }
-.contact-form-container {
-  border: 1px solid blue;
-}
 .contact-form {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 15px;
-  border: 3px solid green;
 }
 .input-box,
 textarea {
@@ -314,17 +310,20 @@ textarea {
   background-color: transparent;
   cursor: text;
 }
-.input-box::placeholder {
-  color: var(--dark);
-  text-transform: uppercase;
-}
 textarea {
   height: 80px;
   padding: 12px 20px;
   resize: vertical;
 }
+.input-box::placeholder {
+  color: var(--dark);
+  text-transform: uppercase;
+}
 textarea::placeholder {
   color: var(--dark);
+}
+.input-box:focus {
+  background-color: var(--light);
 }
 .first-name,
 .last-name,
@@ -336,21 +335,17 @@ textarea::placeholder {
 .msg {
   flex: 1 1 100%;
 }
-
-/* .contact-btn {
-  margin-top: 10px;
+.contact-btn {
   padding: 2%;
-  text-transform: uppercase;
   border: 1px solid var(--dark);
-  font-weight: 200;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   background-color: transparent;
   cursor: pointer;
-} */
-/*Center content when screen is 1200px or larger*/
-/* @media all and (min-width: 1200px) {
-  .navbar,
-  .hero-section,
-  .section-container {
-    width: 90%;
-  }
-} */
+  width: 40%;
+}
+.contact-btn:hover {
+  color: var(--cerise_red300);
+  border: 1px solid var(--cerise_red300);
+}
