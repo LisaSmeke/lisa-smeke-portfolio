@@ -376,6 +376,13 @@ textarea::placeholder {
 footer {
   color: var(--light);
 }
+.footer-container {
+  width: 70%;
+  margin: 0 auto;
+}
+footer p {
+  text-align: center;
+}
 footer a {
   color: var(--light);
   text-decoration: none;
