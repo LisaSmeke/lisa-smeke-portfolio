@@ -169,6 +169,10 @@ header.scrolled {
   .hero-btn {
     width: 100%;
   }
+  .hero-img {
+    max-width: none;
+    width: 80%;
+  }
 }
 
 /*About section*/
