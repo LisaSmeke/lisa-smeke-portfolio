@@ -219,7 +219,7 @@ header.scrolled {
   background-color: var(--light);
 }
 .project {
-  background-color: var(--cerise_red300);
+  background-color: var(--cerise_red200);
   display: flex;
   flex-wrap: nowrap;
   padding: 2%;
