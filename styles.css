@@ -154,7 +154,7 @@ header.scrolled {
   cursor: pointer;
 }
 .hero-btn:hover {
-  background-color: var(--cerise_red300);
+  background-color: var(--cerise_red200);
 }
 
 /*Responsive hero section when width is 900px or less*/
@@ -340,15 +340,16 @@ textarea::placeholder {
 /*Contact form button*/
 .contact-btn {
   padding: 20px;
-  width: 250px;
+  width: 280px;
   text-transform: uppercase;
-  border: 1px solid var(--dark);
+  color: var(--main);
+  border: 1px solid var(--main);
   font-weight: 200;
   background-color: transparent;
   cursor: pointer;
 }
 .contact-btn:hover {
-  background-color: var(--cerise_red300);
+  background-color: var(--cerise_red200);
 }
 
 /*SoMe*/
