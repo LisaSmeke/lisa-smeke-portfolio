@@ -182,8 +182,8 @@ header.scrolled {
 .section-container {
   width: 70%;
   margin: 0 auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .section-title {
   font-size: 32px;
