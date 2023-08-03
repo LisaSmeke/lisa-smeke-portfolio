@@ -190,11 +190,10 @@ header.scrolled {
 .section-container {
   width: 70%;
   margin: 0 auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 40px 0;
 }
 .section-title {
-  margin: 20px 0;
+  margin-bottom: 20px;
   font-size: 32px;
   font-weight: 600;
   text-transform: uppercase;
