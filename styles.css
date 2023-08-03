@@ -161,7 +161,8 @@ header.scrolled {
   cursor: pointer;
 }
 .hero-btn:hover {
-  background-color: var(--cerise_red200);
+  border: 1px solid var(--light);
+  color: var(--light);
 }
 
 /*Responsive hero section when width is 900px or less*/
@@ -272,7 +273,7 @@ header.scrolled {
   cursor: pointer;
 }
 .project-btn:hover {
-  background-color: var(--light);
+  background-color: var(--cerise_red200);
 }
 .project-img-container {
   display: flex;
@@ -349,14 +350,15 @@ textarea::placeholder {
   padding: 20px;
   width: 280px;
   text-transform: uppercase;
-  color: var(--main);
-  border: 1px solid var(--main);
+  color: var(--dark);
+  border: 1px solid var(--dark);
   font-weight: 200;
   background-color: transparent;
   cursor: pointer;
 }
 .contact-btn:hover {
-  background-color: var(--cerise_red200);
+  color: var(--main);
+  border: 1px solid var(--main);
 }
 
 /*SoMe*/
