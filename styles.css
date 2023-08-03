@@ -155,14 +155,16 @@ header.scrolled {
   padding: 20px;
   width: 250px;
   text-transform: uppercase;
-  border: 1px solid var(--dark);
   font-weight: 200;
   background-color: transparent;
-  cursor: pointer;
+  border: 1px solid var(--dark);
+  color: var(--dark);
 }
 .hero-btn:hover {
-  border: 1px solid var(--light);
+  background-color: var(--dark);
+  border: 1px solid var(--dark);
   color: var(--light);
+  cursor: pointer;
 }
 
 /*Responsive hero section when width is 900px or less*/
@@ -211,6 +213,9 @@ header.scrolled {
 }
 
 /*Experience section*/
+.section-title.experience {
+  color: var(--light);
+}
 .experience-section {
   background-color: var(--dark);
   color: var(--light);
@@ -224,10 +229,17 @@ header.scrolled {
 
 /*Work section*/
 .work-section {
-  background-color: var(--light);
+  background-color: var(--dark);
+}
+.section-container.work {
+  border-top: 3px solid var(--main);
+}
+.section-title.work {
+  color: var(--light);
 }
 .project {
-  background-color: var(--cerise_red200);
+  background-color: var(--light);
+  color: var(--dark);
   display: flex;
   flex-wrap: nowrap;
   padding: 2%;
@@ -237,7 +249,6 @@ header.scrolled {
   font-size: 28px;
   font-weight: 600;
   text-transform: uppercase;
-  color: var(--dark);
   margin: 0;
 }
 .project-description {
@@ -267,13 +278,16 @@ header.scrolled {
   padding: 7%;
   width: 90%;
   text-transform: uppercase;
-  border: 1px solid var(--dark);
   font-weight: 200;
   background-color: transparent;
-  cursor: pointer;
+  border: 1px solid var(--dark);
+  color: var(--dark);
 }
 .project-btn:hover {
-  background-color: var(--cerise_red200);
+  background-color: var(--main);
+  border: 1px solid var(--main);
+  color: var(--light);
+  cursor: pointer;
 }
 .project-img-container {
   display: flex;
@@ -306,7 +320,7 @@ header.scrolled {
   background-color: var(--light);
 }
 .contact-section-container {
-  border-top: 3px solid var(--main);
+  /* border-top: 3px solid var(--main); */
 }
 .contact-form {
   display: flex;
@@ -350,15 +364,16 @@ textarea::placeholder {
   padding: 20px;
   width: 280px;
   text-transform: uppercase;
-  color: var(--dark);
-  border: 1px solid var(--dark);
   font-weight: 200;
   background-color: transparent;
-  cursor: pointer;
+  border: 1px solid var(--dark);
+  color: var(--dark);
 }
 .contact-btn:hover {
-  color: var(--main);
+  background-color: var(--main);
   border: 1px solid var(--main);
+  color: var(--light);
+  cursor: pointer;
 }
 
 /*SoMe*/
