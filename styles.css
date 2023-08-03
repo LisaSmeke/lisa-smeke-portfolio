@@ -319,9 +319,7 @@ header.scrolled {
 .contact-section {
   background-color: var(--light);
 }
-.contact-section-container {
-  /* border-top: 3px solid var(--main); */
-}
+
 .contact-form {
   display: flex;
   flex-direction: row;
