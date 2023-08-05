@@ -144,10 +144,14 @@ header.scrolled {
 .hero-text p {
   margin: 2px 0;
 }
-.hero-img {
+.hero-pic {
   width: 60%;
   max-width: 580px;
+}
+.hero-img {
+  width: 100%;
   display: block;
+  margin: 0 auto;
 }
 /*Hero button*/
 .hero-btn {
@@ -179,8 +183,11 @@ header.scrolled {
   .hero-btn {
     width: 100%;
   }
+  .hero-pic {
+    width: 100%;
+  }
   .hero-img {
-    max-width: none;
+    max-width: 580px;
     width: 80%;
   }
 }
