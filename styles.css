@@ -347,7 +347,6 @@ header.scrolled {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 15px;
-  border-radius: 0;
 }
 .input-box,
 textarea {
@@ -357,6 +356,7 @@ textarea {
   font-weight: 400;
   background-color: transparent;
   cursor: text;
+  border-radius: 0px;
 }
 textarea {
   height: 80px;
