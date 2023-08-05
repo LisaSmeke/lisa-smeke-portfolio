@@ -342,7 +342,6 @@ header.scrolled {
 .contact-section {
   background-color: var(--light);
 }
-
 .contact-form {
   display: flex;
   flex-direction: row;
@@ -517,5 +516,15 @@ footer a:hover {
   }
   .project-img {
     width: 100%;
+  }
+  /*SoMe list*/
+  .so-me-list {
+    padding-left: 10%;
+  }
+  .so-me-list li {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
   }
 }
