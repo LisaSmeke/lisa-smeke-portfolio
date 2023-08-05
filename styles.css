@@ -482,4 +482,14 @@ footer a:hover {
     line-height: 1.5;
     font-size: 12px;
   }
+  /*Experience section*/
+  .experience-list {
+    line-height: 1.8;
+    margin-top: 10px;
+    margin-left: 12px;
+  }
+  .experience-list li {
+    padding-left: 3%;
+    font-size: 12px;
+  }
 }
