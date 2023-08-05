@@ -517,6 +517,11 @@ footer a:hover {
   .project-img {
     width: 100%;
   }
+  /*Contact form*/
+  .contact-btn {
+    width: 100%;
+  }
+
   /*SoMe list*/
   .so-me-list {
     padding-left: 10%;
