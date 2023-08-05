@@ -469,4 +469,17 @@ footer a:hover {
     padding: 15px;
     width: 200px;
   }
+  /*Sections general*/
+  .section-container {
+    width: 80%;
+    padding: 7% 2%;
+  }
+  .section-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .section-text {
+    line-height: 1.5;
+    font-size: 12px;
+  }
 }
