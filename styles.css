@@ -347,6 +347,7 @@ header.scrolled {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 15px;
+  border-radius: 0;
 }
 .input-box,
 textarea {
