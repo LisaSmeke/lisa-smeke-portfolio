@@ -209,7 +209,7 @@ header.scrolled {
   color: var(--main);
 }
 .about-link:hover {
-  color: var(--cerise_red400);
+  color: var(--cerise_red300);
 }
 
 /*Experience section*/
@@ -222,9 +222,22 @@ header.scrolled {
 }
 .experience-list {
   line-height: 1.8;
+  margin-left: 40px;
+  list-style-type: '+';
+}
+.experience-list li {
+  padding-left: 1%;
 }
 .experience-list li::marker {
-  color: var(--cerise_red400);
+  color: var(--main);
+  font-weight: 600;
+}
+.experience-list li a {
+  color: var(--light);
+  text-decoration: none;
+}
+.experience-list li a:hover {
+  color: var(--cerise_red300);
 }
 
 /*Work section*/
