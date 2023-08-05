@@ -318,7 +318,7 @@ header.scrolled {
 }
 
 /*Responsive project boxes when width is 900px or less*/
-@media all and (max-width: 900px) {
+@media all and (min-width: 481px) and (max-width: 900px) {
   .project {
     display: flex;
     flex-direction: column;
@@ -491,5 +491,31 @@ footer a:hover {
   .experience-list li {
     padding-left: 3%;
     font-size: 12px;
+  }
+  /*Project boxes*/
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7%;
+  }
+  .project-title {
+    font-size: 20px;
+  }
+  .project-description {
+    font-size: 12px;
+  }
+  .project-description,
+  .project-btn,
+  .project-img-container {
+    width: 100%;
+  }
+  .project-btn {
+    padding: 12px;
+    font-size: 12px;
+    margin-bottom: 3%;
+  }
+  .project-img {
+    width: 100%;
   }
 }
