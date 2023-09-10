@@ -8,6 +8,13 @@ menuBtn.addEventListener('click', () => {
   navList.classList.toggle('active');
 });
 
+/*Close navbar when click on li a */
+document.querySelectorAll('ul#nav-list a').forEach((e) => {
+  e.addEventListener('click', () => {
+    navList.classList.toggle('active');
+  });
+});
+
 /*Change top navbar color when scrolling*/
 document.addEventListener('scroll', () => {
   const topNavbar = document.getElementById('top-navbar');
